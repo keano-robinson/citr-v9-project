@@ -14,7 +14,7 @@ const App = () => {
 		{},
 		React.createElement(
 			"h1",
-			{ style: { color: "red" } },
+			{ style: { color: "green" } },
 			"Hello, Padre Gino's!",
 		),
 		React.createElement(Pizza, {
