@@ -12,15 +12,20 @@ const App = () => {
 			"Hello, Padre Gino's!",
 		),
 		<Pizza
-			name="Margherita"
-			description="Classic pizza with tomatoes, mozzarella, and basil"
-		></Pizza>,
-		<Pizza
 			name="Pepperoni"
 			description="Topped with pepperoni and cheese."
+			image="/public/pizzas/pepperoni.webp"
 		></Pizza>,
-		<Pizza name="Veggie" description="Loaded with fresh vegetables."></Pizza>,
-		<Pizza name="Hawaiian" description="Ham and pineapple topping."></Pizza>,
+		<Pizza
+			name="Margherita"
+			description="Classic pizza with tomatoes, mozzarella, and basil"
+			image="/public/pizzas/big_meat.webp"
+		></Pizza>,
+		<Pizza
+			name="Hawaiian"
+			description="Ham and pineapple topping."
+			image="/public/pizzas/hawaiian.webp"
+		></Pizza>,
 	);
 };
 

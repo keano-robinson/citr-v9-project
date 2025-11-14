@@ -10,6 +10,7 @@ export const Pizza = (props) => {
 		<div className="pizza">
 			<h2 className="name">{props.name}</h2>
 			<p className="description">{props.description}</p>
+			<img src={props.image} alt={props.name} />
 		</div>
 	);
 };
